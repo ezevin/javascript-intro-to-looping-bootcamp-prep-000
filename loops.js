@@ -15,9 +15,9 @@ console.log (--n);
  var i = 0;
   function incrementVariable() {
   i = i + 1;}
+  
   function doWhileLoop(array){
   do while (array.length > 0 ) {
-    console.log (--array)};
-  }
-  return array
+    console.log (--array)}
+  return "array"
 }
