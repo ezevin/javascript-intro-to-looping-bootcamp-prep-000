@@ -17,7 +17,7 @@ console.log (--n);
   i = i + 1;}
   
   function doWhileLoop(array){
-  do {array.pop};
+  do {array.pop}
   return array
-  while  (array.length > 0 && incrementVariable());
+  while  (array.length > 0 && incrementVariable())
 }
