@@ -7,8 +7,9 @@ for  (let i = 0; i<25; i++)
 }
 function whileLoop(n){
 while (n > 0) {
-{console.log (--n)}
-if (n===0) {return done}
+console.log (--n);
+}
+(n===0) {return done}
 }
 function whileLoop(n){
   while (n > 0) {     //you need a { to open the block
