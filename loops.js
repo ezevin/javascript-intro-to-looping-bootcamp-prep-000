@@ -9,11 +9,5 @@ function whileLoop(n){
 while (n > 0) {
 console.log (--n);
 }
-(n===0) {return done}
-}
-function whileLoop(n){
-  while (n > 0) {     //you need a { to open the block
-    console.log (--n);
-   }
-  return "done" //you don't need an if here, because it will only execute after n equal 0, and done should be a string
+(n===0) {return "done"}
 }
