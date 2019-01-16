@@ -12,6 +12,9 @@ console.log (--n);
 (n===0); {return "done"}
 }
 function doWhileLoop(array){
+  var i = 0;
+  function incrementVariable() {
+  i = i + 1;}
   do while (array.length > 0 ) {
     console.log (--array)}
   }
